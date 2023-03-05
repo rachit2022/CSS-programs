@@ -1,0 +1,13 @@
+img:hover{
+    width: 56px;
+    height: 66px;
+}
+img{
+    height: 200px;
+    width: 440px;
+   /* transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 2s;
+    transition-timing-function: ease-in; */
+    transition: all 1s ease-in-out 1s ;   
+}

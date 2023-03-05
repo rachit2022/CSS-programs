@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 58px;
+    align-items: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    background-color: black;
+}
+.txt-centre{
+    text-align: center;
+}    
+footer{
+    height: 12vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

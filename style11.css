@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    display: inline;
+    margin-right: 20px;
+    padding-right: 100px;
+    width: 100px;
+    height: 150px;
+    background-color: red;
+}
+.box2{
+    display: inline;
+    width: 100px;
+    padding-left: 100px;
+    height: 150px;
+    background-color: aqua;
+}

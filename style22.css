@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: cadetblue;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 58px;
+}
+
+ul {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 32px;
+    padding: 18px 0;
+}
+
+.container {
+    background-color: blueviolet;
+    height: max-content;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: yellow;
+    }
+
+    .container {
+        background-color: brown;
+    }
+
+    header {
+        background-color: cadetblue;
+    }
+}
+@media screen and (max-width: 500px) {
+    body {
+        background-color: green;
+    }
+
+    .container {
+        background-color: grey;
+    }
+
+    header {
+        background-color: pink;
+    }
+}

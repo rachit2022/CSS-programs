@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: red;
+    height: 400px;
+}
+.box{
+    border: 2px solid black;
+   /* transform: translate(34px,56px) rotate(45deg);
+   transform: scale(5,2);*/
+   transform-origin: 0;
+   transform: skew(4deg,5deg);
+}

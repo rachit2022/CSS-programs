@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    padding: 34px;
+
+}
+
+li {
+    display: inline;
+    padding: 0 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}
+
+.box2 {
+    width: 200px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.box3 {
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+}
+
+.box4 {
+    width: 200px;
+    height: 300px;
+    background-color: green;
+}

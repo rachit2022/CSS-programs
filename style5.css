@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /*background-color: bisque;*/
+    border: 2px solid red;
+    width: 1534px;
+    height: 2004px;
+    /*background-image: url('rachit.jpg');
+    background-repeat: no-repeat;
+    background-size: 203px;
+    background-position: top left ;
+    background-attachment: fixed;*/
+    background: red url('rachit.jpg') no-repeat top left fixed;
+    color: blue;
+}
